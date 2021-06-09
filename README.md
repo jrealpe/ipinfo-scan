@@ -27,19 +27,19 @@ Install dependencies in virutal env:
 
 ## Usage
 
-For running and scan a single ip:
+To run and scan a single ip:
 
 ```bash
 (env)> python3 ipinfo_scan.py --ip 1.1.1.1
 ```
 
-For running and scan a multiple ip (synchronous):
+To run and scan multiple ip's (synchronous):
 
 ```bash
 (env)> python3 ipinfo_scan.py --ips 1.1.1.1 2.2.2.2 8.8.8.8 9.9.9.9
 ```
 
-For running and scan a multiple ip (asynchronous):
+To run and scan multiple ip's (asynchronous):
 
 ```bash
 (env)> python3 ipinfo_scan.py --ips 1.1.1.1 2.2.2.2 8.8.8.8 9.9.9.9 --no-async
