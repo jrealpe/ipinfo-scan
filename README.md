@@ -42,5 +42,5 @@ To run and scan multiple ip's (synchronous):
 To run and scan multiple ip's (asynchronous):
 
 ```bash
-(env)> python3 ipinfo_scan.py --ips 1.1.1.1 2.2.2.2 8.8.8.8 9.9.9.9 --no-async
+(env)> python3 ipinfo_scan.py --ips 1.1.1.1 2.2.2.2 8.8.8.8 9.9.9.9 --no-sync
 ```
